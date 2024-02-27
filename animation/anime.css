@@ -1,0 +1,11 @@
+.main{
+    animation: animate 5s linear infinite;
+    height: 300px;
+    width: 300px;
+
+}
+
+@keyframes animate{
+    0%{rotate: 0deg;}
+    100%{rotate: 360deg;}
+}
